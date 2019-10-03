@@ -1,2 +1,2 @@
 # CodePipeline-Delete-S3-Bucket-Objects
-AWS Lambda function for CodePipeline to empty an S3 Bucket.
+This is a AWS Lambda function written to overcome a technical limitation with CodePipeline that causes objects removed from a repository will not be removed by CodePipeline from the target S3 Bucket. This script is called by the CodePipeline to empty the target S3 Bucket before the objects are deployed.
